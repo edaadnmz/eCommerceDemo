@@ -1,9 +1,9 @@
 package eCommerceDemo.core.concretes;
 
-import eCommerceDemo.core.abstracts.AuthoryService;
+import eCommerceDemo.core.abstracts.AuthorityService;
 import eCommerceDemo.googleAuhenticator.GoogleAuthenticatorManager;
 
-public class googleAuthenticationManagerAdapter implements AuthoryService {
+public class googleAuthenticationManagerAdapter implements AuthorityService {
 
 	GoogleAuthenticatorManager manager=new GoogleAuthenticatorManager();
 

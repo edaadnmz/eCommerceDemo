@@ -1,21 +1,21 @@
 package eCommerceDemo.core.concretes;
 
 import eCommerceDemo.business.abstracts.UserService;
-import eCommerceDemo.core.abstracts.AuthoryService;
+import eCommerceDemo.core.abstracts.AuthorityService;
 import eCommerceDemo.core.abstracts.ControlService;
 import eCommerceDemo.core.abstracts.UserControlService;
 import eCommerceDemo.entities.concretes.User;
 
-public class AuthoryManager implements AuthoryService {
+public class AuthorityManager implements AuthorityService {
 
 	UserService userService;
 	UserControlService userControlService;
 	ControlService controlService;
 	
-	public AuthoryManager() {
+	public AuthorityManager() {
 		
 	}
-	public AuthoryManager(UserService userService, ControlService controlService, UserControlService userControlService) {
+	public AuthorityManager(UserService userService, ControlService controlService, UserControlService userControlService) {
 		super();
 		this.userService = userService;
 		this.controlService = controlService;
